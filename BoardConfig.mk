@@ -22,3 +22,6 @@ include device/qcom/msm8916_32/BoardConfig.mk
 # Set the framebuffer size to 2 for low ram targets
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 2
 TARGET_ARCH_LOWMEM := true
+
+#add suffix variable to uniquely identify the board
+TARGET_BOARD_SUFFIX := _32_512
