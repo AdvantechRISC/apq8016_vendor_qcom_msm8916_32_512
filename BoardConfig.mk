@@ -25,3 +25,6 @@ TARGET_ARCH_LOWMEM := true
 
 #add suffix variable to uniquely identify the board
 TARGET_BOARD_SUFFIX := _32_512
+
+#Use dlmalloc instead of jemalloc for mallocs for low ram targets
+MALLOC_IMPL := dlmalloc
