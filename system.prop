@@ -138,3 +138,6 @@ ro.sys.fw.bg_apps_limit=16
 
 #selects CoreSight configuration to enable
 persist.debug.coresight.config=stm-events
+
+#property to enable narrow search range for video encoding
+vidc.enc.narrow.searchrange=1
