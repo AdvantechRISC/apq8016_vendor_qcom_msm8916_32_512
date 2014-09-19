@@ -28,3 +28,6 @@ TARGET_BOARD_SUFFIX := _32_512
 
 #Use dlmalloc instead of jemalloc for mallocs for low ram targets
 MALLOC_IMPL := dlmalloc
+
+#disable IMS for 512M targets
+TARGET_USES_IMS := false
