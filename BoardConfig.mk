@@ -31,3 +31,5 @@ MALLOC_IMPL := dlmalloc
 
 #disable IMS for 512M targets
 TARGET_USES_IMS := false
+
+TARGET_LDPRELOAD := libNimsWrap.so
